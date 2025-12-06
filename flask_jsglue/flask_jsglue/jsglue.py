@@ -2,7 +2,7 @@ from markupsafe import Markup
 
 from flask import Flask, url_for
 
-from flask_jsglue.main import bp
+from flask_jsglue.flask_jsglue import bp
 
 
 class JSGlue(object):
