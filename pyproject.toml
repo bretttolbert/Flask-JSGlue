@@ -121,7 +121,7 @@ test = ["coverage", "pytest"]
 "Source" = "https://github.com/bretttolbert/Flask_JSGlue/"
 
 [tool.setuptools.package-data]
-trained_models = ['flask_jsglue/templates/*']
+templates = ['flask_jsglue/main/templates/*']
 
 [tool.setuptools.packages]
 find = {}
