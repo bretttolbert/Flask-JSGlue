@@ -42,7 +42,7 @@ def generate_js(app):
 
 
 @bp.route(JSGLUE_JS_PATH)
-def serve_js():
+def serve_jsglue_js():
     return make_response(
         (generate_js(current_app), 200, {"Content-Type": "text/javascript"})
     )
