@@ -26,3 +26,5 @@ Forked from: http://stewartpark.github.io/Flask-JSGlue/ (no longer maintained)
 Changes in this fork:
 - Fixed issue `ImportError: cannot import name 'Markup' from 'jinja2'` by updating to use `markupsafe`
 - Converted from older `setup.py` project to modern `pyproject.toml` project
+- Use pytest instead of unittest
+- Use Flask Blueprint instead of the main app

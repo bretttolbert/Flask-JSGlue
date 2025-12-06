@@ -1,1 +1,1 @@
-from flask_jsglue.main.jsglue import JSGlue
+from flask_jsglue.flask_jsglue.jsglue import JSGlue
