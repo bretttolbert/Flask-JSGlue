@@ -15,7 +15,7 @@ jsglue = JSGlue(app)
 <head>
     <meta charset="UTF-8">
     <title>application</title>
-    {{ jsglue.include() }}
+    {{ JSGlue.include() }}
 ...
     <script>
     $("#linkAlbum").prop("href", Flask.url_for("main.tracks", artist=track.artist, album=track.album));
