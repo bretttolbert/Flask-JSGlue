@@ -5,10 +5,10 @@ Flask-JSGlue helps hook up your Flask application nicely with the front end.
 Usage Example:
 
 ```python
-from flask_jsglue import JSGlue
+import flask_jsglue
 
 app = Flask(__name__, root_path=root_path)
-jsglue = JSGlue(app)
+flask_jsglue.init(app)
 ```
 
 ```html

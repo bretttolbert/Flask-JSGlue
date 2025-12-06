@@ -1,7 +1,7 @@
 from flask import Flask
 import pytest
 import subprocess
-from flask_jsglue import JSGlue
+import flask_jsglue
 
 
 def runUrlFor(src, url_for):
@@ -22,7 +22,7 @@ def runUrlFor(src, url_for):
 @pytest.fixture(scope="module")
 def app():
     app = Flask(__name__)
-    jsglue = JSGlue(app)
+    flask_jsglue.init(app)
 
     def handler():
         return "ok"

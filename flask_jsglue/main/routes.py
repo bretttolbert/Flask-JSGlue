@@ -7,8 +7,8 @@ from flask import (
     render_template,
 )
 
-from flask_jsglue.flask_jsglue import bp
-from flask_jsglue.flask_jsglue.jsglue import JSGlue
+from flask_jsglue.main import bp
+from flask_jsglue.main.jsglue import JSGlue
 
 JSGLUE_JS_PATH = "/jsglue.js"
 JSGLUE_NAMESPACE = "Flask"
@@ -48,6 +48,6 @@ def serve_jsglue_js():
     )
 
 
-@bp.context_processor
+@bp.app_context_processor
 def context_processor():
     return {"JSGlue": JSGlue}

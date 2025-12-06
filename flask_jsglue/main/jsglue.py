@@ -1,15 +1,9 @@
 from markupsafe import Markup
 
-from flask import Flask, url_for
-
-from flask_jsglue.flask_jsglue import bp
+from flask import url_for
 
 
-class JSGlue(object):
-    def __init__(self, app: Flask):
-        self.app = app
-        app.register_blueprint(bp)
-
+class JSGlue:
     @staticmethod
     def include():
         js_path = url_for("serve_jsglue_js")

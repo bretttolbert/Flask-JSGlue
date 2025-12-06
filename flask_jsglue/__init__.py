@@ -1,1 +1,7 @@
-from flask_jsglue.flask_jsglue.jsglue import JSGlue
+from flask import Flask
+
+from flask_jsglue.main import bp
+
+
+def init(app: Flask):
+    app.register_blueprint(bp)
