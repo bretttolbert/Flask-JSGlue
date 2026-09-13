@@ -2,6 +2,8 @@
 
 `flask_jsglue` is a Python package providing a `Flask.url_for` method callable from front-end JavaScript.
 
+[![CI](https://github.com/bretttolbert/Flask-JSGlue/actions/workflows/ci.yml/badge.svg)](https://github.com/bretttolbert/Flask-JSGlue/actions/workflows/ci.yml)
+
 ## Usage Example
 
 ```python
