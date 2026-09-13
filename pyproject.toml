@@ -47,12 +47,15 @@ classifiers = [
 dependencies = ["Flask"]
 
 [project.optional-dependencies]
-dev = ["check-manifest", "black", "isort", "coverage", "pytest", "mypy"]
+dev = ["check-manifest", "black", "isort", "coverage", "pytest", "mypy", "black", "isort"]
 
 [project.urls]
 "Homepage" = "https://github.com/bretttolbert/Flask_JSGlue"
 "Bug Reports" = "https://github.com/bretttolbert/Flask_JSGlue/issues"
 "Source" = "https://github.com/bretttolbert/Flask_JSGlue/"
+
+[tool.black]
+line-length = 120
 
 [tool.setuptools]
 package-dir = {"" = "src"}

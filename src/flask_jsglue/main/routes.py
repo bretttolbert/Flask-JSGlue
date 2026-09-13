@@ -1,12 +1,7 @@
 import json
 import re
 
-from flask import (
-    Flask,
-    current_app,
-    make_response,
-    render_template,
-)
+from flask import Flask, current_app, make_response, render_template
 
 from flask_jsglue.main import bp
 from flask_jsglue.main.jsglue import JSGlue

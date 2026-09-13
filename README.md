@@ -1,6 +1,6 @@
 # Flask-JSGlue
 
-`Flask-JSGlue` provides a `Flask.url_for` method callable from front-end JavaScript.
+`flask_jsglue` is a Python package providing a `Flask.url_for` method callable from front-end JavaScript.
 
 ## Usage Example
 

@@ -1,6 +1,8 @@
-from flask import Flask
-import pytest
 import subprocess
+
+import pytest
+from flask import Flask
+
 import flask_jsglue
 
 
