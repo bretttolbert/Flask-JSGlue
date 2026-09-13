@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+.pytest_cache/
+.mypy_cache/
 __pycache__/
 *.py[cod]
 
@@ -22,6 +24,16 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
