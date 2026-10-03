@@ -2,6 +2,11 @@
 
 `flask_jsglue` is a Python package providing a `Flask.url_for` method callable from front-end JavaScript.
 
+> 🚧 **Status: Deprecated**  
+> Even though I forked this and updated it, I cannot recommend using Flask-JSGlue in 2026 or Flask in general. Recommend a modern solution like Deno + Vite + Vue SPA for the frontend paired with a separate backend implemented using something like BlackSheep if you want to stick with Python (or Java + Javalin if you want better performance).
+
+---
+
 [![CI](https://github.com/bretttolbert/Flask-JSGlue/actions/workflows/ci.yml/badge.svg)](https://github.com/bretttolbert/Flask-JSGlue/actions/workflows/ci.yml)
 
 ## Usage Example
